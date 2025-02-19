@@ -1,0 +1,16 @@
+site_name: Examen práctico unidad 6
+site_description: Examen práctico unidad 6
+site_author: Carlos miguel
+docs_dir: docs_src
+site_dir: docs
+site_url: https://temeriamos.github.io/Examen_Unidad_6.git
+theme: readthedocs
+nav:
+  - Inicio: README.md
+  - Guía de instalacion windows 11: guia_instalacion_windows_11.md
+  - Especificaciones técnicas del iPhone 16: especificaciones_tecnicas_iphone_16.md
+  - Descarga de la documentacion: pdf.md
+
+plugins:
+  - search
+  - pdf-export
